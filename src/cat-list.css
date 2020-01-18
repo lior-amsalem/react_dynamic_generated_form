@@ -1,0 +1,47 @@
+a {
+  color: white;
+}
+
+.webhook   h2 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+.row {
+  margin-bottom: 10px;
+}
+
+.icon-delete-wrapper {
+  position: absolute;
+  top: 12px;
+  right: 0;
+  cursor: pointer;
+}
+
+.Rtable {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 0 5px 0;
+  padding: 0;
+  width: 400px;
+}
+
+.Rtable-cell {
+  box-sizing: border-box;
+  flex-grow: 1;
+  width: 100%;
+  padding: 4px 20px 4px 0;
+  overflow: hidden;
+  list-style: none;
+  position: relative;
+}
+  
+/* Table column sizing */
+.Rtable--2cols > .Rtable-cell  {
+  width: 50%;
+}
+
+.Rtable-cell input:disabled {
+  background: rgb(244, 245, 245);
+}
