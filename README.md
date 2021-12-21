@@ -1,4 +1,8 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Generate next input forms automatic
+
+![auto input generator](form_example.gif)
+
+[Medium article - read more](https://medium.com/@lior_amsalem/how-to-create-dynamically-generated-form-in-react-c3b1cac810e5)
 
 ## Available Scripts
 
